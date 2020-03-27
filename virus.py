@@ -66,5 +66,5 @@ print ("""\033[033m[--------TeaM-Cyber--------]""")
 i = 1
 while i <= 100:
 	time.sleep(1.12)
-	print ('\033[031mMENGIRIM \033[032mVIRUS \033[034mKE NOMOR »-->\033[033m' ,nomor)
+	print ('\033[031mMENGIRIM \033[032mVIRUS \033[034mKE NOMOR »-->\033[1;37m' ,nomor)
 	i += 1
